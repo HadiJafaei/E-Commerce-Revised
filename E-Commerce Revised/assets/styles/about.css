@@ -1,0 +1,144 @@
+main {
+    margin-top: 210px;
+    padding: 0 8px;
+}
+.path {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.path a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+h1 {
+   font-size: 50px;
+}
+.ourstory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 320px;
+    margin-bottom: 140px;
+}
+.womenpic img {
+    max-width: 100%;
+    height: auto;
+}
+.awriting {
+    width: 525px;
+    font-size: 18px;
+    padding-left: 30px;
+    margin-right: -50px;
+    margin-left: 50px;
+}
+.awriting p {
+    margin-top: 20px;
+}
+@media (max-width: 1050px) {
+    .ourstory {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .awriting {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+.marketstatus {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.state {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    width: 270px;
+    height: 230px;
+    border-radius: 4px;
+    margin: 5px;
+}
+.sstate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    width: 270px;
+    height: 230px;
+    border-radius: 4px;
+    background-color: #db4444;
+    border: 1px solid #db4444;
+    margin: 5px;
+}
+.headn {
+    font-size: 30px;
+    font-weight: bold;
+}
+.sheadn {
+    font-size: 30px;
+    font-weight: bold;
+}
+.management {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    overflow-x: auto;
+}
+.management div {
+    margin: 4px 10px;
+}
+.management h3 {
+    font-size: 38px;
+    margin: 10px 0;
+}
+.amedia {
+    margin-top: 10px;
+}
+.management a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+.seventh {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 140px;
+}
+.principles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+.seventh h5 {
+  font-size: 19px;
+}
+.prin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 700px) {
+  .principles {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

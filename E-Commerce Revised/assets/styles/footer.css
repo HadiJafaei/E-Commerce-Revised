@@ -1,0 +1,72 @@
+.footer {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 110px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: white;
+    padding: 20px 10px 100px;
+    
+}
+footer {
+    background-color: black;
+}
+.fcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 0 10px;
+}
+.footer h3 {
+    font-size: 20px;
+}
+.footer h4 {
+    font-size: 18px;
+}
+.footer address {
+    font-style: normal;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.femail {
+    display: flex;
+    align-items: center;
+}
+.femail input {
+    background-color: black;
+    color: gray;
+    border: 1px solid white;
+    padding: 14px 8px;
+    border-radius: 4px;
+}
+.fsend {
+    margin-left: -34px;
+}
+.fimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.appmarket {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: left;
+    gap: 24px;
+    margin-left: -18px;
+}
+.copyright {
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,113 @@
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 210px;
+    margin-bottom: 180px;
+    padding: 0 8px;
+}
+.path {
+    text-align: left;
+    margin-bottom: 100px;
+}
+.path a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.sidemenu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sidemenu h5 {
+    font-size: 18px;
+}
+.sidemenu a {
+    color: #7D8184;
+    text-decoration: none;
+    margin-left: 32px;
+}
+.sidemenu a:hover {
+    color: #db4444;
+}
+.entire {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+legend {
+    color: #db4444;
+    font-size: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: 630px;
+}
+@media (max-width: 1000px) {
+    .sidemenu {
+        display: none;
+    }
+    .entire {
+        align-items: center;
+        justify-content: center;
+    }
+}
+.fname {
+    display: inline-block;
+}
+label {
+    display: block;
+}
+.flname {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flname input {
+    background-color: #f5f5f5;
+    border: none;
+    width: 330px;
+    height: 50px;
+    padding-left: 15px;
+    border-right: 10px solid white;
+}
+#passw {
+    height: 50px;
+    border: none;
+    background-color: #f5f5f5;
+    padding-left: 15px;
+}
+.subcan {
+    direction: rtl;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+}
+.save {
+    background-color: #bd4444;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+}
+.cancel {
+    border: none;
+    font-size: 16px;
+    background-color: white;
+}
+@media (max-width: 800px) {
+    .flname {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .form {
+        height: 730px;
+    }
+}

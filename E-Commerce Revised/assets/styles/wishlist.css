@@ -1,0 +1,88 @@
+.main {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding: 0 6px;
+}
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    margin-bottom: -50px;
+}
+.upper a {
+    padding: 10px 30px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+.price {
+    color: #db4444;
+}
+del {
+    color: #7d8184;
+}
+.prow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 420px;
+    overflow-y: hidden;
+}
+.prcard {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    width: 270;
+    height: 250;
+    padding: 18px 25px;
+    width: 200px;
+    height: 170px;
+    gap: 8px;
+}
+.prcard:hover {
+    background-color: #b9b4b4;
+}
+.prcard button:hover {
+    background-color: white;
+    color: black;
+}
+.prow a {
+    text-decoration: none;
+    color: black;
+}
+.prow button {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.justfor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -40px;
+}
+.justfor a {
+    padding: 10px 30px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+.redheading {
+    color: #db4444;
+    padding-left: 15px;
+    border-left: 20px solid #db4444;
+    height: 40px;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+}
+.move:hover {
+    background-color: #a7a2a2;
+}

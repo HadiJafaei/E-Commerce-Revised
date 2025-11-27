@@ -1,0 +1,138 @@
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 210px;
+    margin-bottom: 150px;
+    padding: 0 6px;
+}
+.path {
+    text-align: left;
+    margin-bottom: 100px;
+}
+.path a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.table {
+    width: 100%;
+    height: 270px;
+    text-align: left;
+    overflow-x: auto;
+}
+.table input {
+    text-align: center;
+    width: 50px ;
+    height: 30px;
+    border-radius: 5px;
+}
+.table input:hover {
+    background-color: #aaa8a8;
+}
+.lcd {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 18px;
+}
+.tbuttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.tbuttons button {
+    padding: 10px 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.tbuttons button:hover {
+    background-color: #aaa8a8;
+}
+.below {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.below input {
+    padding: 12px 40px 12px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.below button {
+    background-color: #bd4444;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 0 -5px 0 5px;
+}
+.below button:hover {
+    background-color: #963333;
+}
+@media (max-width: 800px) {
+    .below {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
+.chart {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 2px solid rgb(80, 79, 79);
+    padding: 30px 14px;
+    border-radius: 4px;
+}
+.chart h4 {
+    font-size: 20px;
+}
+.chart a {
+    background-color: #bd4444;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.chart a:hover {
+    background-color: #963333;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.proceed {
+    margin-top: 15px;
+    text-align: center;
+}
+.borders {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0 10px;
+    margin: -10px 0 -10px;
+}
+.seventh {
+    padding: 0 355px;
+    text-align: center;
+    margin: 140px 0;
+}
+.principles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+.seventh h5 {
+    font-size: 19px;
+}
+.prin {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
